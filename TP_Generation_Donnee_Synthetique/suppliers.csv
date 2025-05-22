@@ -1,6 +1,6 @@
 supplier_name,contact_email,registration_date,country,reputation_score,is_active
-Benjamin du Monnier,eleonoreclerc@example.com,1990-01-28 08:29:23,Vietnam,17,True
-Joseph Leduc,lagardehortense@example.org,2003-07-14 04:02:44,Arabie saoudite,44,True
+Benjamin du Monnier,eleonoreclerc@example.cocdcdm,1990-01-28 08:29:23,Vietnam,17,True
+Joseph Leduc,lagardehortense@example.ordcscsg,2003-07-14 04:02:44,Arabie saoudite,44,True
 Lucas Carlier,adelaideblanchet@example.net,2000-04-11 13:19:57,Chypre,97,True
 Adèle Weber,olivier80@example.net,2004-07-27 17:36:33,Zambie,12,True
 Émile Guillot-Louis,danielle09@example.net,2026-02-26 10:30:52,Russie,61,False
@@ -12,7 +12,7 @@ Frédéric Charpentier,daniel19@example.org,1970-02-12 12:57:59,Niger,26,True
 Frédéric Sauvage du Breton,marcelgeorges@example.net,2009-02-02 10:47:00,Sainte Hélène,63,False
 Margaret Goncalves,davidarthur@example.com,2002-02-16 12:44:34,Micronésie (États fédérés de),9,False
 Alfred du Morvan,martin41@example.org,2016-07-05 01:42:17,Azerbaïdjan,39,False
-Isabelle-Christiane Paul,bertrandlefort@example.com,1987-06-20 12:49:23,Paraguay,97,True
+Isabelle-Christiane Paul,bertrandlefort@example.cdedeom,1987-06-20 12:49:23,Paraguay,97,True
 Laetitia Poulain-Weiss,thierryaimee@example.net,1991-05-23 02:29:55,Tonga,88,True
 Emmanuel Gros,gabrielle49@example.org,2300-05-07 14:16:08,Guyane,87,False
 Gilles Fleury,giraudantoine@example.com,1977-10-14 04:45:14,Kenya,53,True
@@ -21,8 +21,8 @@ Richard-Georges Fleury,philippine94@example.org,2003-06-21 14:24:10,Finlande,44,
 Célina de la Dos Santos,aurelie97@example.org,2025-02-25 01:21:11,Colombie,2,True
 Michelle Bonneau,kbarre@example.org,1994-10-06 01:34:03,Espagne,48,True
 Nicole Peltier de la Mary,timothee07@example.com,2010-07-09 17:04:40,Bermudes (Les),98,True
-Grégoire Leleu-Lebreton,omarchand@example.org,1994-01-02 12:59:29,Cambodge,9,True
-Hugues Martins,thibaultbruneau@example.net,1980-06-23 15:42:16,Chili,19,True
+Grégoire Leleu-Lebreton,omarchand@example.oreeg,1994-01-02 12:59:29,Cambodge,9,True
+Hugues Martins,@example.net,1980-06-23 15:42:16,Chili,19,True
 Lucy Mercier,rguilbert@example.org,1983-12-18 17:57:28,Allemagne,14,False
 Martin Pires,wbrunet@example.org,2017-08-05 20:57:17,Mexique,10,False
 Margot Maury,clemonnier@example.net,2007-02-25 04:02:52,Sri Lanka,62,True
@@ -145,7 +145,7 @@ Renée Garnier,baroneugene@example.net,1975-11-22 17:12:13,Tonga,76,False
 Marcelle Weber-Evrard,xvoisin@example.net,2013-07-31 06:55:55,Géorgie du Sud et Sandwich du Sud (Îles),6,True
 Benjamin Benoit-Brun,rrossi@example.org,1984-09-22 03:07:19,Inde,18,False
 Timothée Sanchez-Raynaud,thibaultschneider@example.net,2003-07-13 05:47:21,Tokelau,72,True
-Christine Olivier du Michel,adrienperrier@example.com,1996-06-22 20:47:05,Turquie,64,True
+Christine Olivier du Michel,adrienperrier@example.cofdefem,1996-06-22 20:47:05,Turquie,64,True
 Laure Prévost,leonbrun@example.net,1978-10-11 06:39:02,Singapour,89,False
 Alfred Mendès,lemaitregabriel@example.org,1972-03-08 16:42:49,Autriche,85,True
 Sébastien Joubert Le Rolland,emmanuel07@example.com,1970-08-02 22:46:19,Rwanda,55,False

@@ -42,29 +42,37 @@ registration_error()
 
 def email_error():
     cursor.execute("""
-        SELECT COUNT(*) FROM suppliers
-        WHERE contact_email REGEXP '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{3,}$'
-        AND contact_email IS NOT NULL;
-        """)
-    cursor_error_mail = cursor.fetchone()[0]
-    print(f'{cursor_error_mail} problème mail')
+        SELECT contact_email
+        FROM suppliers
+        WHERE contact_email NOT REGEXP '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.(com|fr|org|net|edu|gov|biz|info)$'
+        OR contact_email NOT LIKE '%@%';
+    """)
+    invalid_emails = cursor.fetchall()
+    print("Emails invalides:", invalid_emails)
 email_error()
 
 def doublon_error():
     cursor.execute("""
-        SELECT COUNT(*) FROM suppliers
-        WHERE supplier_name 
+        SELECT supplier_name, COUNT(*)
+        FROM suppliers
         GROUP BY supplier_name
-        HAVING count > 1;
+        HAVING COUNT(*) > 1;
         """)
-    cursor_error_doublon = cursor.fetchone()[0]
-    print(f'{cursor_error_doublon} problème doublon')
+    cursor_error_double = cursor.fetchall()
+    for supplier_name in cursor_error_double:
+        print(f"{supplier_name} aparait plusieurs fois.")
 doublon_error()
 
-#cursor.execute("""
-    #SELECT COUNT(*) FROM suppliers
-    #WHERE reputation_score < 0 ;
-#""")
+def reputation_error():
+    cursor.execute("""
+        SELECT reputation_score, COUNT(*) 
+        FROM suppliers
+        WHERE reputation_score > 50 
+        AND reputation_score < 100 ;
+        """)
+    cursor_error_reputation = cursor.fetchone()[0]
+    print(f'{cursor_error_reputation} reputation entre 50 et 100')
+reputation_error()
 
 # Fermer la connexion à la BDD
 cursor.close()
