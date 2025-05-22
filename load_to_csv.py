@@ -29,6 +29,15 @@ for _, row in df.iterrows():
 
 print("Données insérées dans la base")
 
+# Verification s'il y a des dates futures (incorrectes)
+cursor.execute("""
+    SELECT COUNT(*) FROM customers
+    WHERE birthdate > CURDATE();
+""")
+# Variable curseur pour recupérés un résultat uniquement
+errors_nb = cursor.fetchone()[0]
+print(f"{errors_nb} clients ont une date de naissance futures.")
+
 # Fermer la connexion à la BDD
 cursor.close()
 conn.close()
