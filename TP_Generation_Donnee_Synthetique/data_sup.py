@@ -14,7 +14,7 @@ def generate_clients(nb):
         data.append({
             "supplier_name" : fake.name(),
             "contact_email" : fake.email(),
-            "registration_date" : fake.date_time(),
+            "registration_date" : fake.date_time_between(start_date="-10y", end_date="+30d"),
             "country" : fake.country(),
             "reputation_score" : round(random.uniform(0,100)),
             "is_active" : random.choice([True,False]),

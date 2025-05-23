@@ -19,15 +19,21 @@ conn = pymysql.connect(
 cursor = conn.cursor()
 #except :
     #("Erreur de connexion du curseur")
+inserted = 0
 
 # Mapper et insérer les données dans la BDD
-for _, row in df.iterrows():
-    cursor.execute("""
-        INSERT INTO suppliers (supplier_name, contact_email, registration_date, country, reputation_score, is_active)
-        VALUES (%s, %s, %s, %s, %s, %s)
-    """, (row["supplier_name"], row["contact_email"], row["registration_date"], row["country"], row["reputation_score"], bool(row["is_active"])))
-
+for _, row in df.iterrows(): #Boucle for (similaire a for each du au _ qui enlève la premiere ligne)
+    try:
+        cursor.execute("""
+            INSERT INTO suppliers (supplier_name, contact_email, registration_date, country, reputation_score, is_active)
+            VALUES (%s, %s, %s, %s, %s, %s)
+        """, (row["supplier_name"], row["contact_email"], row["registration_date"], row["country"], row["reputation_score"], bool(row["is_active"])))
+        inserted += 1
+        print(f'{inserted} lignes enregistrés')
+    except Exception as e: #Enregistre les erreurs Try / Catch(except)
+        print(e)
 print("Données insérées dans la base")
+
 
 # Verification s'il y a des dates futures (incorrectes)
 
@@ -45,7 +51,6 @@ def email_error():
         SELECT contact_email
         FROM suppliers
         WHERE contact_email NOT REGEXP '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.(com|fr|org|net|edu|gov|biz|info)$'
-        OR contact_email NOT LIKE '%@%';
     """)
     invalid_emails = cursor.fetchall()
     print("Emails invalides:", invalid_emails)
