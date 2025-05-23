@@ -1,0 +1,7 @@
+Rapport de migration
+Total de ligne traitées : 1000
+Insertion reussies : 1000
+Lignes ignorees : 0
+Erreurs : 0
+
+Aucune erreur detectee
