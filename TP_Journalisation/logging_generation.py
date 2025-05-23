@@ -19,7 +19,7 @@ def ini_log_file():
 
     #En-tete
     log_file.write("Log de migration de donnees \n")
-    log_file.write(f'Date : {datetime.datetime.now()}')
+    log_file.write(f'Date : {datetime.datetime.now()}\n')
 
     return log_file
 
