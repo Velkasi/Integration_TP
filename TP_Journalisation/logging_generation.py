@@ -27,7 +27,7 @@ def ini_log_file():
 def log_insert_success(log_file, row):
     global inserted_count
     inserted_count += 1
-    log_file.write("Inserted : {row['email']}\n")
+    log_file.write(f"Inserted : {row['email']}\n")
 
 # Consigner une insertion reussie
 def log_ignored_row(log_file, row, reason):
