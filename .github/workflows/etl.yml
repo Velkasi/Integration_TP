@@ -10,7 +10,7 @@ on:
 # Définition des tâches à exécuter
 jobs:
   etl:  # Nom du job (libre, ici "etl")
-    runs-on: ubuntu-latest  # Utilise une machine virtuelle Ubuntu dans le cloud
+    runs-on: ubuntu-22.04  # Utilise une machine virtuelle Ubuntu dans le cloud
 
     # Configuration d'un service MySQL disponible pendant le job
     services:
