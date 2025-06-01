@@ -50,3 +50,8 @@ jobs:
 
       - name: Run ETL script  # Étape 6 : exécute ton script ETL qui insère et contrôle les données
         run: python load_dataframe.py
+
+      - name: Vérification des doublons
+        run: |
+          mysql -h 127.0.0.1 -P 3307 -u root -proot -D supplier_integration_test -e \
+          "SELECT supplier_name, COUNT(*) as count FROM suppliers GROUP BY supplier_name HAVING count > 1;"
