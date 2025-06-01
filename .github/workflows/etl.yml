@@ -1,0 +1,52 @@
+# Nom du workflow (il apparaîtra dans GitHub dans l'onglet Actions)
+name: ETL Automation
+
+# Déclencheurs : ici, le pipeline s'exécute quand on pousse sur la branche main ou manuellement
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:  # Permet de lancer manuellement le workflow depuis GitHub
+
+# Définition des tâches à exécuter
+jobs:
+  etl:  # Nom du job (libre, ici "etl")
+    runs-on: ubuntu-latest  # Utilise une machine virtuelle Ubuntu dans le cloud
+
+    # Configuration d'un service MySQL disponible pendant le job
+    services:
+      mysql:  # Nom du service
+        image: mysql:5.7  # Utilise l'image Docker officielle de MySQL 5.7
+        env:
+          MYSQL_ROOT_PASSWORD: root  # Mot de passe root
+          MYSQL_DATABASE: supplier_integration_test  # Base créée automatiquement
+        ports:
+          - 3307:3306  # Redirige le port 3306 de MySQL vers 3307 sur le runner GitHub
+        options: >-  # Options supplémentaires (surveillance de la santé du conteneur)
+          --health-cmd="mysqladmin ping --silent"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
+
+    # Liste des étapes que le runner va exécuter
+    steps:
+      - name: Checkout repository  # Étape 1 : récupérer les fichiers du dépôt GitHub
+        uses: actions/checkout@v3
+
+      - name: Set up Python  # Étape 2 : installer Python sur la machine virtuelle
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10  # Spécifie la version de Python
+
+      - name: Install dependencies  # Étape 3 : installer les bibliothèques nécessaires
+        run: |
+          pip install pandas pymysql faker
+
+      - name: Initialize database  # Étape 4 : exécute le script SQL pour créer la base + la table
+        run: |
+          mysql -h 127.0.0.1 -P 3307 -u root -proot < suppliers.sql
+
+      - name: Generate data  # Étape 5 : génère le fichier CSV avec 1000 lignes de faux fournisseurs
+        run: python data_sup.py
+
+      - name: Run ETL script  # Étape 6 : exécute ton script ETL qui insère et contrôle les données
+        run: python load_dataframe.py
