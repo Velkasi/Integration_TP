@@ -35,7 +35,7 @@ jobs:
       - name: Set up Python  # Étape 2 : installer Python sur la machine virtuelle
         uses: actions/setup-python@v4
         with:
-          python-version: 3.14  # Spécifie la version de Python
+          python-version: 3.10  # Spécifie la version de Python
 
       - name: Install dependencies  # Étape 3 : installer les bibliothèques nécessaires
         run: |
