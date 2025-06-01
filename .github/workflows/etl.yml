@@ -4,7 +4,7 @@ name: ETL Automation
 # Déclencheurs : ici, le pipeline s'exécute quand on pousse sur la branche main ou manuellement
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:  # Permet de lancer manuellement le workflow depuis GitHub
 
 # Définition des tâches à exécuter
