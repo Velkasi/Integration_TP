@@ -12,8 +12,8 @@ génération, chargement et journalisation, intégrés dans un pipeline CI/CD vi
 - MySQL Server (ex. XAMPP avec port 3306 ou 3307)
 - Git (pour cloner le dpt)
 - PowerShell ou terminal compatible
-- Un diteur de texte/code (Visual Studio Code recommand)
-- 
+- Un éditeur de texte/code (Visual Studio Code, Pycharm)
+  
 ### Modules Python ncessaires
 
  installer avec pip :
