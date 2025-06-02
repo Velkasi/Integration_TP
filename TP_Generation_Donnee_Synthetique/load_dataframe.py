@@ -2,7 +2,7 @@ import pandas as pandas
 import pymysql
 
 # Charge le fichier CSV dans un DataFrame
-df = pandas.read_csv("suppliers.csv")
+df = pandas.read_csv("TP_Generation_Donnee_Synthetique/suppliers.csv")
 
 # Connexion à la BDD
 conn = pymysql.connect(
