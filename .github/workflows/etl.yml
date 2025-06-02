@@ -48,11 +48,11 @@ jobs:
       - name: Generate data  # Étape 5 : génère le fichier CSV avec 1000 lignes de faux fournisseurs
       - name: Wait for MySQL to be ready
         run: |
-            for i in {1..20}; do
-            mysqladmin ping -h 127.0.0.1 -P 3307 -u root -proot && break
-            echo "⏳ En attente de MySQL ($i/20)..."
-            sleep 2
-            done
+          for i in {1..20}; do
+          mysqladmin ping -h 127.0.0.1 -P 3307 -u root -proot && break
+          echo " En attente de MySQL ($i/20)..."
+          sleep 2
+          done
 
 
 
