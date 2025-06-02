@@ -43,7 +43,7 @@ jobs:
 
       - name: Initialize database  # Étape 4 : exécute le script SQL pour créer la base + la table
         run: |
-          mysql -h 127.0.0.1 -P 3306 -u root -proot < suppliers.sql
+          mysql -h 127.0.0.1 -P 3306 -u root -proot < TP_Generation_Donnee_Synthetique/suppliers.sql
 
       - name: Generate data  # Étape 5 : génère le fichier CSV avec 1000 lignes de faux fournisseurs
         run: python data_sup.py
