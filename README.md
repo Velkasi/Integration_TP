@@ -18,8 +18,7 @@ génération, chargement et journalisation, intégrés dans un pipeline CI/CD vi
 
  installer avec pip :
  
-```
-bash
+```bash
 pip install pandas pymysql faker
 
 ```
@@ -28,8 +27,7 @@ pip install pandas pymysql faker
 1. Démarrer MySQL avec un utilisateur `root` et mot de passe vide **ou** `"root"`.
 2. Modifier les fichiers Python si besoin :
    
-```
-python
+```python
 # Exemple dans load_dataframe.py
 conn = pymysql.connect(
  host="127.0.0.1",
@@ -41,8 +39,8 @@ conn = pymysql.connect(
 )
 ```
 3. Exécuter les fichiers `.sql` pour créer les bases et tables :
-```
-bash
+   
+```bash
 mysql -u root -p < TP_Generation_Donnee_Synthetique/suppliers.sql
 ```
 ---
@@ -50,8 +48,7 @@ mysql -u root -p < TP_Generation_Donnee_Synthetique/suppliers.sql
 
 ### Exemple : TP_Generation_Donnee_Synthetique
 
-```
-bash
+```bash
 python TP_Generation_Donnee_Synthetique/data_sup.py
 python TP_Generation_Donnee_Synthetique/load_dataframe.py
 ```
