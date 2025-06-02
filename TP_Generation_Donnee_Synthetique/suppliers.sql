@@ -1,7 +1,7 @@
 CREATE DATABASE supplier_integration_test;
 USE supplier_integration_test;
 
-CREATE TABLE suppliers (
+CREATE TABLE IF NOT EXISTS suppliers (
     id INT AUTO_INCREMENT PRIMARY KEY,
     supplier_name VARCHAR(100),
     contact_email VARCHAR(100),
