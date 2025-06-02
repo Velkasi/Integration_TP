@@ -2,13 +2,13 @@ import pandas as pandas
 import pymysql
 
 # Charge le fichier CSV dans un DataFrame
-df = pandas.read_csv("suppliers.csv")
+df = pandas.read_csv("TP_Generation_Donnee_Synthetique/suppliers.csv")
 
 # Connexion à la BDD
 conn = pymysql.connect(
     host="127.0.0.1",
     user="root",
-    password="",
+    password="root",
     database="supplier_integration_test",
     port=3307,
     autocommit=True
@@ -61,7 +61,7 @@ def doublon_error():
         SELECT supplier_name, COUNT(*)
         FROM suppliers
         GROUP BY supplier_name
-        HAVING COUNT(*) > 1;
+        HAVING COUNT(*) > 1 ;
         """)
     cursor_error_double = cursor.fetchall()
     for supplier_name in cursor_error_double:
@@ -73,7 +73,8 @@ def reputation_error():
         SELECT reputation_score, COUNT(*) 
         FROM suppliers
         WHERE reputation_score > 50 
-        AND reputation_score < 100 ;
+        AND reputation_score < 100 
+        GROUP BY reputation_score ;
         """)
     cursor_error_reputation = cursor.fetchone()[0]
     print(f'{cursor_error_reputation} reputation entre 50 et 100')
