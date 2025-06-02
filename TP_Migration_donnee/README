@@ -1,0 +1,12 @@
+LES TESTS DE MIGRATION DE DONNÉES
+VALIDATION ET JOURNALISATION DANS UNE MIGRATION DE DONNÉES
+
+1. Créez une bdd company_db avec une table employees contenant les noms, adresses mail, date de recrutement, salaire annuel des employés ainsi que s'ils sont toujours employés au sein de l'entreprise ou non.,
+2. Générez 1000 lignes de fausses données et exportez les en csv,
+3. Importez les données du fichier CSV vers la base de données.,
+4. S'assurer que toutes les données sont conformes :,
+  o Vérifier que tous les champs sont remplis.
+  • Vérifier que le salaire est positif.
+  • Vérifier que l'email est bien formaté.
+  • Vérifier que la date de recrutement n'est pas future.
+5. Logger les succès et erreurs dans un fichier de log et le détail des erreurs dans un fichier de rapport de migration
