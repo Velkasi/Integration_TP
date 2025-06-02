@@ -8,7 +8,7 @@ génération, chargement et journalisation, intégrés dans un pipeline CI/CD vi
 
 ### Outils obligatoires
 
-- Python 3.10
+- Python 3.11
 - MySQL Server (ex. XAMPP avec port 3306 ou 3307)
 - Git (pour cloner le dpt)
 - PowerShell ou terminal compatible
