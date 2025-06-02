@@ -10,7 +10,7 @@ conn = pymysql.connect(
     user="root",
     password="",
     database="supplier_integration_test",
-    port=3307,
+    port=3306,
     autocommit=True
 )
 
