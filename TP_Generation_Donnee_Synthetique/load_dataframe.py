@@ -8,6 +8,7 @@ df = pandas.read_csv("TP_Generation_Donnee_Synthetique/suppliers.csv")
 conn = pymysql.connect(
     host="127.0.0.1",
     user="root",
+    password="proot",
     database="supplier_integration_test",
     port=3307,
     autocommit=True
