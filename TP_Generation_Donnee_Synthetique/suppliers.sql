@@ -1,4 +1,4 @@
-CREATE DATABASE supplier_integration_test;
+CREATE DATABASE IF NOT EXISTS supplier_integration_test;
 USE supplier_integration_test;
 
 CREATE TABLE IF NOT EXISTS suppliers (
