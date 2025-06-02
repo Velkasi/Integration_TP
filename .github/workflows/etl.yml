@@ -45,16 +45,13 @@ jobs:
         run: |
           mysql -h 127.0.0.1 -P 3307 -u root -proot < TP_Generation_Donnee_Synthetique/suppliers.sql
 
-      - name: Generate data  # Étape 5 : génère le fichier CSV avec 1000 lignes de faux fournisseurs
-      - name: Wait for MySQL to be ready
+      - name: Wait for MySQL to be ready # Étape 5 : génère le fichier CSV avec 1000 lignes de faux fournisseurs
         run: |
           for i in {1..20}; do
           mysqladmin ping -h 127.0.0.1 -P 3307 -u root -proot && break
           echo " En attente de MySQL ($i/20)..."
           sleep 2
           done
-
-
 
       - name: Run ETL script  # Étape 6 : exécute ton script ETL qui insère et contrôle les données
         run: python TP_Generation_Donnee_Synthetique/load_dataframe.py
