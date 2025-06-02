@@ -74,6 +74,7 @@ def reputation_error():
         FROM suppliers
         WHERE reputation_score > 50 
         AND reputation_score < 100 ;
+        GROUP BY reputation_score;
         """)
     cursor_error_reputation = cursor.fetchone()[0]
     print(f'{cursor_error_reputation} reputation entre 50 et 100')
