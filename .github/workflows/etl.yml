@@ -46,10 +46,10 @@ jobs:
           mysql -h 127.0.0.1 -P 3307 -u root -proot < TP_Generation_Donnee_Synthetique/suppliers.sql
 
       - name: Generate data  # Étape 5 : génère le fichier CSV avec 1000 lignes de faux fournisseurs
-        run: python data_sup.py
+        run: python TP_Generation_Donnee_Synthetique/data_sup.py
 
       - name: Run ETL script  # Étape 6 : exécute ton script ETL qui insère et contrôle les données
-        run: python load_dataframe.py
+        run: python TP_Generation_Donnee_Synthetique/load_dataframe.py
 
       - name: Vérification des doublons
         run: |
