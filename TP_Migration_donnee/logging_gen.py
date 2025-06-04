@@ -12,7 +12,7 @@ error_rows = []
 def ini_log_file():
     #On donne un nom au fichier contenant date et heure
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
-    filename = f'log_{timestamp}'
+    filename = f'log_{timestamp}'.log
 
     #Ouvrir le fichier en mode ecriture
     log_file = open(filename, "w", encoding="utf-8")
@@ -33,7 +33,8 @@ def log_insert_success(log_file, row):
 def log_ignored_row(log_file, row, reason):
     global ignored_count
     ignored_count += 1
-    log_file.write(f'Ignored : {row.get('email', 'N/A')} | Reason : {reason}\n')
+    log_file.write(f"Ignored : {row.get('email', 'N/A')} | Reason : {reason}\n")
+
 
 # Consigner une ligne ignoree
 def log_error(log_file, row, error_msg):
@@ -49,7 +50,7 @@ def log_error(log_file, row, error_msg):
         "error" : error_msg
     })
 
-    log_file.write(f'Error: {row.get('email', 'N/A')} | Reason : {error_msg}\n')
+    log_file.write(f"Error: {row.get('email', 'N/A')} | Reason : {error_msg}\n")
 
 # Generer un rapport de migration
 def generate_summary_report():
