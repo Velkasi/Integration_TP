@@ -1,5 +1,6 @@
 import pymysql
 import pandas as pandas
+import re
 
 from TP_Migration_donnee import logging_gen
 from TP_Migration_donnee.generation_random import df
@@ -30,20 +31,22 @@ for _, row in df.iterrows():
 
 # Verifier les donnees inssentielles de la base initiales avec insertion
 # Si un champ obligatoire est manquant, on le consigne dans les logs
-        if pandas.isnull(row['email']):
-            log_ignored_row(log_file, row, 'required field email is missing')
+        
+        #Vérifier que tous les champs sont remplis.
+        if pd.isnull(row['email']) or pd.isnull(row['name']) or pd.isnull(row['date_recrut']) or pd.isnull(row['salaire_annuel']):
+            log_ignored_row(log_file, row, 'Champs obligatoires manquants')
             continue
 
 # Insertion les donnees dans la table
         cursor.execute("""
-            INSERT INTO customers (name, email, birthdate, total_amount, enabled)
+            INSERT INTO employees (name, email, date_recrut, salaire_annuel, salaire_active)
             VALUES (%s, %s, %s, %s, %s)
             """, (
-            row["nom"], #Nom client
+            row["name"], #Nom client
             row["email"], # Email client
-            row["date_recrut"], # Date de naissance
-            row["salaire_annuel"], # Montant total
-            bool(row["salaire_active"]))) # conversion explicit en booleen
+            row["date_recrut"], # Date de recrutement
+            row["salaire_annuel"], # Salaire annuel
+            bool(row["salaire_active"]))) # Salarie en activites en booleen
 
 ######################### PENDANT MIGRATION #########################
 # Si insertion reussie : Log l'evenement
@@ -59,35 +62,20 @@ for _, row in df.iterrows():
 # Verification du fichier
 # Verification s'il y a des dates futures (incorrectes)
 
-cursor.execute("""
-    SELECT COUNT(*) FROM employees
-    WHERE date_recrut > CURDATE();
-""")
-future_birthdates = cursor.fetchone()[0]
-print(f"{future_birthdates} clients ont une date de naissance future")
+if pd.to_datetime(row["date_recrut"]) > datetime.now():
+    log_ignored_row(log_file, row, "Date de recrutement future")
+    continue
 
 #Vérifier que l'email est bien formaté.
-cursor.execute("""
-    SELECT email
-    FROM employees
-    WHERE email NOT REGEXP '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.(com|fr|org|net|edu|gov|biz|info)$'
-""")
-invalid_emails = cursor.fetchall()
-print("Emails invalides:", invalid_emails)
-
-#Vérifier que tous les champs sont remplis.
+if not re.match(r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|fr|org|net|edu|gov|biz|info)$", row["email"]):
+    log_ignored_row(log_file, row, "Email mal formaté")
+    continue
 
 
 #Vérifier que le salaire est positif.
-cursor.execute("""
-    SELECT salaire_annuel, COUNT(*) 
-    FROM employees
-    WHERE salaire_annuel > 0 
-    AND salaire_annuel < 100000 
-    GROUP BY salaire_annuel ;
-""")
-cursor_error_reputation = cursor.fetchall()
-print(f'{cursor_error_reputation} salaire annuel Superieur a 0')
+if float(row["salaire_annuel"]) <= 0:
+    log_ignored_row(log_file, row, "Salaire invalide")
+    continue
 
 # Fermeture fichier log
 
