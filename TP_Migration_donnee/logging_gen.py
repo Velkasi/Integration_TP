@@ -28,12 +28,14 @@ def log_insert_success(log_file, row):
     global inserted_count
     inserted_count += 1
     log_file.write(f"Inserted : {row['email']}\n")
+    print(f'Success')
 
 # Consigner une insertion reussie
 def log_ignored_row(log_file, row, reason):
     global ignored_count
     ignored_count += 1
     log_file.write(f'Ignored : {row.get('email', 'N/A')} | Reason : {reason}\n')
+    print(f'{reason} Ignored')
 
 # Consigner une ligne ignoree
 def log_error(log_file, row, error_msg):
@@ -48,7 +50,7 @@ def log_error(log_file, row, error_msg):
         "date_recrut" : row.get("date_recrut"),
         "error" : error_msg
     })
-
+    print(f"{error_msg}Erreur ici")
     log_file.write(f'Error: {row.get('email', 'N/A')} | Reason : {error_msg}\n')
 
 # Generer un rapport de migration

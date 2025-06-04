@@ -24,5 +24,5 @@ def generate_clients(nb):
 df = generate_clients(1000)
 
 # dataframe to csv (index = false) permet de venir écrasé le csv précédent
-df.to_csv("customer.csv", index=False)
+df.to_csv("employees.csv", index=False)
 print("Fichier clients généré")
