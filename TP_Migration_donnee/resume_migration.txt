@@ -1,0 +1,10 @@
+Rapport de migration
+Total de ligne traitées : 1000
+Insertion reussies : 990
+Lignes ignorees : 7
+Erreurs : 3
+
+Detail des erreurs : 
+Email: None Erreur: year 20022 is out of range: 20022-12-25, at position 0
+Email: None Erreur: year 20127 is out of range: 20127-04-14, at position 0
+Email: None Erreur: year 20092 is out of range: 20092-08-15, at position 0

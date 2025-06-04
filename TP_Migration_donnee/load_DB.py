@@ -1,9 +1,9 @@
+from datetime import datetime
+import pandas as pd
 import pymysql
-import pandas as pandas
 import re
 
 from TP_Migration_donnee import logging_gen
-from TP_Migration_donnee.generation_random import df
 from TP_Migration_donnee.logging_gen import log_insert_success, ini_log_file, log_ignored_row, log_error, close_log_file
 
 # Connexion a la BDD
@@ -20,13 +20,13 @@ connection = pymysql.connect(
 cursor = connection.cursor()
 
 #Lecture du fichier CSV
-df = pd.read_csv("employees.csv")
+dataframe = pd.read_csv("employees.csv")
 
 #Initialiser le fichier de journalisation
 log_file = ini_log_file()
 
 # Traitement ligne par ligne du CSV
-for _, row in df.iterrows():
+for _, row in dataframe.iterrows():
     logging_gen.total_rows += 1
 
     try :
@@ -59,14 +59,14 @@ for _, row in df.iterrows():
 
 # Insertion les donnees dans la table
         cursor.execute("""
-            INSERT INTO employees (name, email, date_recrut, salaire_annuel, salaire_active)
+            INSERT INTO employees (name, email, date_recrut, salaire_annuel, salarie_active)
             VALUES (%s, %s, %s, %s, %s)
             """, (
             row["name"], #Nom client
             row["email"], # Email client
             row["date_recrut"], # Date de recrutement
             row["salaire_annuel"], # Salaire annuel
-            bool(row["salaire_active"]))) # Salarie en activites en booleen
+            bool(row["salarie_active"]))) # Salarie en activites en booleen
 
 ######################### PENDANT MIGRATION #########################
 # Si insertion reussie : Log l'evenement
