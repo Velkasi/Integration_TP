@@ -10,7 +10,7 @@ from TP_Migration_donnee.logging_gen import log_insert_success, ini_log_file, lo
 connection = pymysql.connect(
     host="127.0.0.1",
     user="root",
-    password="",
+    password="root",
     port=3307,
     database="company_db",
     autocommit=True
