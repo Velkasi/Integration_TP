@@ -20,7 +20,7 @@ connection = pymysql.connect(
 cursor = connection.cursor()
 
 #Lecture du fichier CSV
-dataframe = pd.read_csv("employees.csv")
+dataframe = pd.read_csv("TP_Migration_donnee/employees.csv")
 
 #Initialiser le fichier de journalisation
 log_file = ini_log_file()
