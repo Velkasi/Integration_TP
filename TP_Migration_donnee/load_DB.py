@@ -3,7 +3,7 @@ import pandas as pd
 import pymysql
 import re
 
-from TP_Migration_donnee import logging_gen
+import logging_gen
 from TP_Migration_donnee.logging_gen import log_insert_success, ini_log_file, log_ignored_row, log_error, close_log_file
 
 # Connexion a la BDD
