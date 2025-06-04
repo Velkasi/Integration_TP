@@ -19,6 +19,9 @@ connection = pymysql.connect(
 # Creation du curseur
 cursor = connection.cursor()
 
+#Lecture du fichier CSV
+df = pd.read_csv("employees.csv")
+
 #Initialiser le fichier de journalisation
 log_file = ini_log_file()
 
@@ -36,6 +39,23 @@ for _, row in df.iterrows():
         if pd.isnull(row['email']) or pd.isnull(row['name']) or pd.isnull(row['date_recrut']) or pd.isnull(row['salaire_annuel']):
             log_ignored_row(log_file, row, 'Champs obligatoires manquants')
             continue
+        # Verification s'il y a des dates futures (incorrectes)
+
+        if pd.to_datetime(row["date_recrut"]) > datetime.now():
+            log_ignored_row(log_file, row, "Date de recrutement future")
+            continue
+
+        #Vérifier que l'email est bien formaté.
+        if not re.match(r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|fr|org|net|edu|gov|biz|info)$", row["email"]):
+            log_ignored_row(log_file, row, "Email mal formaté")
+            continue
+
+
+        #Vérifier que le salaire est positif.
+        if float(row["salaire_annuel"]) <= 0:
+            log_ignored_row(log_file, row, "Salaire invalide")
+            continue
+
 
 # Insertion les donnees dans la table
         cursor.execute("""
@@ -60,26 +80,8 @@ for _, row in df.iterrows():
 ######################### APRES MIGRATION #########################
 
 # Verification du fichier
-# Verification s'il y a des dates futures (incorrectes)
-
-if pd.to_datetime(row["date_recrut"]) > datetime.now():
-    log_ignored_row(log_file, row, "Date de recrutement future")
-    continue
-
-#Vérifier que l'email est bien formaté.
-if not re.match(r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|fr|org|net|edu|gov|biz|info)$", row["email"]):
-    log_ignored_row(log_file, row, "Email mal formaté")
-    continue
-
-
-#Vérifier que le salaire est positif.
-if float(row["salaire_annuel"]) <= 0:
-    log_ignored_row(log_file, row, "Salaire invalide")
-    continue
 
 # Fermeture fichier log
-
-
 # Generation du rapport final
 close_log_file(log_file)
 
