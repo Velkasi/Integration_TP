@@ -53,5 +53,11 @@ jobs:
           sleep 2
           done
 
+      - name: Add current directory to PYTHONPATH
+        run: echo "PYTHONPATH=$PWD" >> $GITHUB_ENV
+
+      - name: List files (debug)
+        run: ls -R
+
       - name: Run ETL script  # Étape 6 : exécute ton script ETL qui insère et contrôle les données
         run: python TP_Migration_donnee/load_DB.py
