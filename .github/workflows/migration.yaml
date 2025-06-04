@@ -53,9 +53,11 @@ jobs:
           sleep 2
           done
 
+      #Ligne a rajouter pour le debug
       - name: Add current directory to PYTHONPATH
         run: echo "PYTHONPATH=$PWD" >> $GITHUB_ENV
 
+      #Ligne a rajouter pour le debug
       - name: List files (debug)
         run: ls -R
 
