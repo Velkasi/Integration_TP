@@ -43,6 +43,9 @@ def log_error(log_file, row, error_msg):
 # Consigner une erreur
     error_rows.append({
         "email" : row.get("email, N/A"),
+        "name" : row.get("name, N/A"),
+        "salaire_annuel" : row.get("salaire_annuel"),
+        "date_recrut" : row.get("date_recrut"),
         "error" : error_msg
     })
 

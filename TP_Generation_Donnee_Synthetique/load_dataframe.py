@@ -65,7 +65,7 @@ def doublon_error():
         """)
     cursor_error_double = cursor.fetchall()
     for supplier_name in cursor_error_double:
-        print(f"{supplier_name} aparait plusieurs fois.")
+        print(f"{supplier_name} aparait {cursor_error_double} fois.")
 doublon_error()
 
 def reputation_error():

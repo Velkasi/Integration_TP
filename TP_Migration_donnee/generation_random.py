@@ -12,11 +12,11 @@ def generate_clients(nb):
     for _ in range(nb):
         # Ajout des nom, mails etc...
         data.append({
-            "nom" : fake.name(),
+            "name" : fake.name(),
             "email" : fake.email(),
-            "date_naissance" : fake.date_of_birth(minimum_age=18, maximum_age=90),
-            "salaire_annuel" : round(random.uniform(0 ,1000),2),
-            "actif" : random.choice([True,False]),
+            "date_recrut" : fake.date(),
+            "salaire_annuel" : round(random.uniform(10000 ,80000),2),
+            "salaire_active" : random.choice([True,False]),
         })
     return pd.DataFrame(data)
 

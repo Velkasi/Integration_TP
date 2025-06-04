@@ -1,5 +1,9 @@
 import pymysql
+import pandas as pandas
 
+from TP_Migration_donnee import logging_gen
+from TP_Migration_donnee.generation_random import df
+from TP_Migration_donnee.logging_gen import log_insert_success, ini_log_file, log_ignored_row, log_error, close_log_file
 
 # Connexion a la BDD
 connection = pymysql.connect(
@@ -7,7 +11,7 @@ connection = pymysql.connect(
     user="root",
     password="",
     port=3307,
-    database="integration_test",
+    database="company_db",
     autocommit=True
 )
 
@@ -19,7 +23,7 @@ log_file = ini_log_file()
 
 # Traitement ligne par ligne du CSV
 for _, row in df.iterrows():
-    logging_generation.total_rows += 1
+    logging_gen.total_rows += 1
 
     try :
 ######################### AVANT MIGRATION #########################
@@ -37,9 +41,9 @@ for _, row in df.iterrows():
             """, (
             row["nom"], #Nom client
             row["email"], # Email client
-            row["date_naissance"], # Date de naissance
-            row["montant"], # Montant total
-            bool(row["actif"]))) # conversion explicit en booleen
+            row["date_recrut"], # Date de naissance
+            row["salaire_annuel"], # Montant total
+            bool(row["salaire_active"]))) # conversion explicit en booleen
 
 ######################### PENDANT MIGRATION #########################
 # Si insertion reussie : Log l'evenement
@@ -54,12 +58,36 @@ for _, row in df.iterrows():
 
 # Verification du fichier
 # Verification s'il y a des dates futures (incorrectes)
+
 cursor.execute("""
-    SELECT COUNT(*) FROM customers
-    WHERE birthdate > CURDATE();
+    SELECT COUNT(*) FROM employees
+    WHERE date_recrut > CURDATE();
 """)
 future_birthdates = cursor.fetchone()[0]
 print(f"{future_birthdates} clients ont une date de naissance future")
+
+#Vérifier que l'email est bien formaté.
+cursor.execute("""
+    SELECT email
+    FROM employees
+    WHERE email NOT REGEXP '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.(com|fr|org|net|edu|gov|biz|info)$'
+""")
+invalid_emails = cursor.fetchall()
+print("Emails invalides:", invalid_emails)
+
+#Vérifier que tous les champs sont remplis.
+
+
+#Vérifier que le salaire est positif.
+cursor.execute("""
+    SELECT salaire_annuel, COUNT(*) 
+    FROM employees
+    WHERE salaire_annuel > 0 
+    AND salaire_annuel < 100000 
+    GROUP BY salaire_annuel ;
+""")
+cursor_error_reputation = cursor.fetchall()
+print(f'{cursor_error_reputation} salaire annuel Superieur a 0')
 
 # Fermeture fichier log
 
