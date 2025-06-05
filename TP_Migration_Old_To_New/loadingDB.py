@@ -80,7 +80,6 @@ for _, row in dataframeStudents.iterrows():
     except Exception as e:
         log_error(log_file, row, str(e))
 
-
 # Traitement ligne par ligne du CSV dataframeEnrollments
 for _, row in dataframeEnrollments.iterrows():
     loggingGen.total_rows += 1
