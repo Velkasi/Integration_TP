@@ -1,0 +1,9 @@
+L’université a migré son ancien système vers un nouveau SI académique.
+Plusieurs anomalies sont survenues après la migration et vous pensez avoir identifié 3 tables responsables.
+1) Récupérez le script SQL et les jeux de données.
+recréez les tables et leur contenu pour avoir un environnement de test qui reproduit l’environnement corrompu en production.
+2) Identifiez les anomalies. Traitez les lignes invalides et fournissez les jeux de données corrigés.
+3) Supprimez les données erronnées en bdd et réinjectez les données corrigées. Consignez l’opération dans un fichier recovery_log.txt
+4) Faites les vérification nécessaires post-reprise
+5) Générez un fichier recovery_report.txt avec le timestamp de l’opération.
+le résumé des données corrigées, supprimées et/ou insérées, le statut global de l’opération et les anomalies éventuellement restantes.
