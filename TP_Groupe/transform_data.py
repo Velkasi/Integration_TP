@@ -3,13 +3,47 @@ import pandas as pd
 import datetime
 
 # Chargement des fichiers contenant les données erronées et les référentiels valides
-df_intervenant = pd.read_csv('students_ko.csv')         # Données étudiantes à corriger
-df_client = pd.read_csv('enrollments_ko.csv')   # Inscriptions possiblement corrompues
-df_majors = pd.read_csv('majors.csv')                # Référentiel des filières valides
-valid_majors = set(df_majors['major_code'])          # Pour filtrer ensuite les filières invalides
+df_intervenant = pd.read_csv('"Cas 1/Cas 1"/data_1/intervenants.csv')         # Données des intervenants
+df_client_agence1 = pd.read_csv('"Cas 1/Cas 1"/data_1/clients_agence1.csv')   # Référentiel des clients de l'agence 1
+df_client_agence2 = pd.read_csv('"Cas 1/Cas 1"/data_1/clients_agence2.csv')  # Référentiel des clients de l'agence 2
+df_projet = pd.read_csv('"Cas 1/Cas 1"/data_1/projets.csv')  # Référentiel des projets  
+df_affectation = pd.read_csv('"Cas 1/Cas 1"/data_1/affectations.csv')   # Référentiel des affectations
 
-# Nettoyer Students pour fiabiliser les données students avant la réinjection
+# Concatener les deux csv clients 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##########################################################################################################################################################
+
+
+
+
+
+
+
+#
 # Conversion des dates de naissance ; les formats invalides deviennent NaT
 df_students['birth_date'] = pd.to_datetime(df_students['birth_date'], errors='coerce')
 
