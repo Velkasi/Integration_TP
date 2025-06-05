@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS client_agence;
 
 # ID,NomClient,DateInscription,EmailContact,Commentaire
 CREATE TABLE IF NOT EXISTS client_agence (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    ID INT AUTO_INCREMENT PRIMARY KEY,
     NomClient VARCHAR (100),
     EmailContact VARCHAR (100),
     DateInscription DATETIME,
@@ -40,5 +40,6 @@ CREATE TABLE IF NOT EXISTS projets (
     id_client INT FOREIGN KEY,
     date_debut DATETIME,
     date_fin DATETIME,
+    status BOOLEAN,
     note_satisfaction INT
 );
