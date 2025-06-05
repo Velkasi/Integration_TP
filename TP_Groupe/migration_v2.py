@@ -3,7 +3,7 @@ import pymysql
 
 #Appeller les fichiers CSV générées
 df_intervenant = pandas.read_csv('"Cas 1/Cas 1"/data_1/intervenants.csv')
-df_client_agence = pandas.read_csv('"Cas 1/Cas 1"/data_1/clients_agence.csv')
+df_agence = pandas.read_csv('"Cas 1/Cas 1"/data_1/agence.csv')
 df_projet = pandas.read_csv('"Cas 1/Cas 1"/data_1/projets.csv')
 df_affectation = pandas.read_csv('"Cas 1/Cas 1"/data_1/affectations.csv')
 
@@ -31,11 +31,11 @@ try:
         """
         cursor.executemany(intervenant_insert, df_intervenant.values.tolist())
         
-        client_agence_insert = """
+        agence_insert = """
             INSERT INTO client_agence (NomClient, EmailContact, DateInscription, Commentaire, Region)
             VALUES (%s, %s, %s, %s, %s)           
         """
-        cursor.executemany(client_agence_insert, df_client_agence.values.tolist())
+        cursor.executemany(agence_insert, df_agence.values.tolist())
         
         projet_insert = """
             INSERT INTO projet (nom_projet, date_debut, date_fin, statut, note_satisfaction)
@@ -58,12 +58,3 @@ except Exception as e:
 
 finally:
     conn.close()
-        
-        
-       
-
-
-
-#Fermer la connexion à la BDD
-cursor.close()
-conn.close()
