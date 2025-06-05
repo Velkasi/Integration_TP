@@ -3,13 +3,14 @@ USE clevity_db;
 
 DROP TABLE IF EXISTS client_agence;
 
-# ID,NomClient,DateInscription,EmailContact,Commentaire
+# ID,NomClient,DateInscription,EmailContact,Commentaire + ClientID,Raison Sociale,email,Inscrit_le,Region
 CREATE TABLE IF NOT EXISTS client_agence (
     ID INT AUTO_INCREMENT PRIMARY KEY,
     NomClient VARCHAR (100),
     EmailContact VARCHAR (100),
     DateInscription DATETIME,
-    Commentaire VARCHAR (200)
+    Commentaire VARCHAR (200),
+    Region VARCHAR (100)
 );
 
 # id_affectation,id_projet,id_intervenant,date_affectation,role,commentaire
@@ -37,7 +38,7 @@ CREATE TABLE IF NOT EXISTS intervenant (
 CREATE TABLE IF NOT EXISTS projets (
     id_projet INT AUTO_INCREMENT PRIMARY KEY,
     nom_projet VARCHAR (100),
-    id_client INT FOREIGN KEY,
+    id_client INT,
     date_debut DATETIME,
     date_fin DATETIME,
     status BOOLEAN,
