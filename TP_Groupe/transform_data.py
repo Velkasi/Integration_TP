@@ -9,12 +9,21 @@ df_client_agence2 = pd.read_csv('"Cas 1/Cas 1"/data_1/clients_agence2.csv')  # R
 df_projet = pd.read_csv('"Cas 1/Cas 1"/data_1/projets.csv')  # Référentiel des projets  
 df_affectation = pd.read_csv('"Cas 1/Cas 1"/data_1/affectations.csv')   # Référentiel des affectations
 
-# Concatener les deux csv clients 
+###################### Concatener les deux csv clients########################### 
+# Colonne agence 1 : ID,NomClient,DateInscription,EmailContact,Commentaire
+# Colonne agence 2 : ClientID,Raison Sociale,email,Inscrit_le,Region
 
+##################################Suppression de l'ID###########################
+#####Agence 1##########
+df_client_agence1 = pd.DataFrame(data=data, index=['ID','NomClient','DateInscription','EmailContact','Commentaire'])
+df_client_agence1 = df.drop('ID', axis=1)
+df_client_agence1= df.insert(loc=4, column='Region')
 
-
-
-
+#####Agence 2##########
+df_client_agence2 = pd.DataFrame(data=data, index=['ClientID','Raison Sociale','email','Inscrit_le','Region']) #Initialisation des données
+df_client_agence2 = df.drop('ClientID', axis=1) #Suppression de l'ID car re-création par la BDD 
+df_client_agence2 = df.reindex(['ClientID','Raison Sociale','Inscrit_le','email','Region'] # Colonne réorganisé ClientID,Raison Sociale,email,Inscrit_le,Region
+                               
 
 
 
