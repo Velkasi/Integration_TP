@@ -3,7 +3,7 @@ import pymysql
 
 #Appeller les fichiers CSV générées
 df_intervenant = pandas.read_csv('"Cas 1/Cas 1"/data_1/intervenants.csv')
-df_client_agence = pandas.read_csv('"Cas 1/Cas 1"/data_1/clients_agence.csv')
+df_agence = pandas.read_csv('"Cas 1/Cas 1"/data_1/agence.csv')
 df_projet = pandas.read_csv('"Cas 1/Cas 1"/data_1/projets.csv')
 df_affectation = pandas.read_csv('"Cas 1/Cas 1"/data_1/affectations.csv')
 
@@ -34,10 +34,10 @@ for _, row in df_intervenant.iterrows():
         print(e)
 print("Données insérées dans la table intervenant")
 
-for _, row in df_client_agence.iterrows():
+for _, row in df_agence.iterrows():
     try:
         cursor.execute("""
-            INSERT INTO client_agence (NomClient, EmailContact, DateInscription, Commentaire, Region)
+            INSERT INTO agence (NomClient, EmailContact, DateInscription, Commentaire, Region)
             VALUES (%s, %s, %s, %s, %s)           
         """, (row["NomClient"], row["EmailContact"], row["DateInscription"], row["Commentaire"], row["Region"]))
         inserted_lien += 1
