@@ -2,11 +2,11 @@ import pandas as pd
 
 
 # Chargement des fichiers contenant les données erronées et les référentiels valides
-df_intervenant = pd.read_csv('intervenants.csv')         # Données des intervenants
-df_client_agence1 = pd.read_csv('clients_agence1.csv')   # Référentiel des clients de l'agence 1
-df_client_agence2 = pd.read_csv('clients_agence2.csv')  # Référentiel des clients de l'agence 2
-df_projet = pd.read_csv('projets.csv')  # Référentiel des projets
-df_affectation = pd.read_csv('affectations.csv')   # Référentiel des affectations
+df_intervenant = pd.read_csv('Cas 1/Cas 1/data_1/intervenants.csv')         # Données des intervenants
+df_client_agence1 = pd.read_csv('Cas 1/Cas 1/data_1/clients_agence1.csv')   # Référentiel des clients de l'agence 1
+df_client_agence2 = pd.read_csv('Cas 1/Cas 1/data_1/clients_agence2.csv')  # Référentiel des clients de l'agence 2
+df_projet = pd.read_csv('Cas 1/Cas 1/data_1/projets.csv')  # Référentiel des projets
+df_affectation = pd.read_csv('Cas 1/Cas 1/data_1/affectations.csv')   # Référentiel des affectations
 
 ###################### Concatener les deux csv clients###########################
 # Colonne agence 1 : ID,NomClient,DateInscription,EmailContact,Commentaire
