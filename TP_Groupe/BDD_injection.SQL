@@ -44,3 +44,60 @@ CREATE TABLE IF NOT EXISTS projets (
     status BOOLEAN,
     note_satisfaction INT
 );
+---------------------------------------------------------------------------------------
+
+VERSION CHATGPT + ACTUELLE
+
+-- Création de la base
+CREATE DATABASE IF NOT EXISTS clevity_db;
+USE clevity_db;
+
+-- Suppression préalable (sécurité lors de tests répétés)
+DROP TABLE IF EXISTS affectations;
+DROP TABLE IF EXISTS projets;
+DROP TABLE IF EXISTS intervenant;
+DROP TABLE IF EXISTS client_agence;
+
+-- Table des clients/agences
+CREATE TABLE IF NOT EXISTS client_agence (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    NomClient VARCHAR(100) NOT NULL,
+    EmailContact VARCHAR(100) NOT NULL,
+    DateInscription DATETIME NOT NULL,
+    Commentaire VARCHAR(200),
+    Region VARCHAR(100) NOT NULL
+);
+
+-- Table des intervenants
+CREATE TABLE IF NOT EXISTS intervenant (
+    id_intervenant INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(100) NOT NULL,
+    prenom VARCHAR(100) NOT NULL,
+    agence VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    telephone VARCHAR(100) NOT NULL
+);
+
+-- Table des projets
+CREATE TABLE IF NOT EXISTS projets (
+    id_projet INT AUTO_INCREMENT PRIMARY KEY,
+    nom_projet VARCHAR(100) NOT NULL,
+    date_debut DATETIME NOT NULL,
+    date_fin DATETIME,
+    statut BOOLEAN NOT NULL,
+    note_satisfaction INT,
+    id_client INT NOT NULL,
+    FOREIGN KEY (id_client) REFERENCES client_agence(ID)
+);
+
+-- Table des affectations
+CREATE TABLE IF NOT EXISTS affectations (
+    id_affectation INT AUTO_INCREMENT PRIMARY KEY,
+    date_affectation DATETIME NOT NULL,
+    role VARCHAR(100),
+    commentaire VARCHAR(200),
+    id_intervenant INT NOT NULL,
+    id_projet INT NOT NULL,
+    FOREIGN KEY (id_intervenant) REFERENCES intervenant(id_intervenant),
+    FOREIGN KEY (id_projet) REFERENCES projets(id_projet)
+);
