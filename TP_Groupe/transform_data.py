@@ -16,15 +16,19 @@ df_affectation = pd.read_csv('"Cas 1/Cas 1"/data_1/affectations.csv')   # Réfé
 ##################################Suppression de l'ID###########################
 #####Agence 1##########
 df_client_agence1 = pd.DataFrame(data=data, index=['ID','NomClient','DateInscription','EmailContact','Commentaire'])
-df_client_agence1 = df.drop('ID', axis=1)
-df_client_agence1= df.insert(loc=4, column='Region')
+df_client_agence1 = df.drop('ID', axis=1) #Suppression de l'ID car re-création par la BDD 
+df_client_agence1= df.insert(loc=4, column='Region') # Colonne ajoutée : NomClient,DateInscription,EmailContact,"Region",Commentaire
 
 #####Agence 2##########
 df_client_agence2 = pd.DataFrame(data=data, index=['ClientID','Raison Sociale','email','Inscrit_le','Region']) #Initialisation des données
 df_client_agence2 = df.drop('ClientID', axis=1) #Suppression de l'ID car re-création par la BDD 
-df_client_agence2 = df.reindex(['ClientID','Raison Sociale','Inscrit_le','email','Region'] # Colonne réorganisé ClientID,Raison Sociale,email,Inscrit_le,Region
-                               
+df_client_agence2 = df.reindex(['ClientID','Raison Sociale','Inscrit_le','email','Region'] # Colonne réorganisé Raison Sociale,"email","Inscrit_le",Region
+df_client_agence2= df.insert(loc=5, column='Commentaire') # Colonne ajoutée : Raison Sociale,"email","Inscrit_le",Region,"Commentaire"
 
+#####Ecriture du fichiers 
+df_client_agence1.to_csv("agence.csv", index=False)
+
+##Colonne finale pour les agences : NomClient,DateInscription,EmailContact,Region,Commentaire
 
 
 
