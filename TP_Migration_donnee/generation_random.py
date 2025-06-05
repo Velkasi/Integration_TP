@@ -16,7 +16,7 @@ def generate_clients(nb):
             "email" : fake.email(),
             "date_recrut" : fake.date(),
             "salaire_annuel" : round(random.uniform(10000 ,80000),2),
-            "salarie_active" : random.choice([True,False]),
+            "salarie_active" : random.choice([True,False]), #A nommer en Anglais
         })
     return pd.DataFrame(data)
 

@@ -1,6 +1,8 @@
 CREATE DATABASE IF NOT EXISTS company_db;
 USE company_db;
 
+DROP TABLE IF EXISTS employees;
+
 CREATE TABLE IF NOT EXISTS employees (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR (100),
@@ -10,4 +12,3 @@ CREATE TABLE IF NOT EXISTS employees (
     salarie_active BOOLEAN
 );
 
-DROP TABLE IF EXISTS employees;
