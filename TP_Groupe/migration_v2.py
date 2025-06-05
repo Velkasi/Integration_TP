@@ -2,10 +2,10 @@ import pandas as pandas
 import pymysql
 
 #Appeller les fichiers CSV générées
-df_intervenant = pandas.read_csv('"Cas 1/Cas 1"/data_1/intervenants.csv')
-df_agence = pandas.read_csv('"Cas 1/Cas 1"/data_1/agence.csv')
-df_projet = pandas.read_csv('"Cas 1/Cas 1"/data_1/projets.csv')
-df_affectation = pandas.read_csv('"Cas 1/Cas 1"/data_1/affectations.csv')
+df_intervenant = pandas.read_csv('intervenants.csv')
+df_agence = pandas.read_csv('Cas 1/Cas 1/data_1/agence.csv')
+df_projet = pandas.read_csv('projets.csv')
+df_affectation = pandas.read_csv('affectations.csv')
 
 #Connexion à la BDD
 conn = pymysql.connect(
@@ -30,7 +30,8 @@ try:
             VALUES (%s, %s, %s, %s, %s)           
         """
         cursor.executemany(intervenant_insert, df_intervenant.values.tolist())
-        
+
+        #ID	NomClient	EmailContact	DateInscription	Commentaire	Region
         agence_insert = """
             INSERT INTO client_agence (NomClient, EmailContact, DateInscription, Commentaire, Region)
             VALUES (%s, %s, %s, %s, %s)           
@@ -54,7 +55,7 @@ try:
 
 except Exception as e:
     conn.rollback()
-    print("Erreur lors du chargement de la donée : ", e)
+    print("Erreur lors du chargement de la donnée : ", e)
 
 finally:
     conn.close()
