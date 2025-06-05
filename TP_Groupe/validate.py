@@ -1,5 +1,3 @@
-# validate.py — Validation post-migration de clevity_db
-
 import pymysql
 import pandas as pd
 from datetime import datetime
@@ -19,10 +17,10 @@ cursor = connection.cursor()
 # Ces fichiers contiennent les données de référence initialement importées
 # On les utilise pour comparer avec les données migrées en base
 
-df_clients = pd.read_csv("data_1/client_agence.csv")
-df_intervenants = pd.read_csv("data_1/intervenant.csv")
-df_projets = pd.read_csv("data_1/projets.csv")
-df_affectations = pd.read_csv("data_1/affectations.csv")
+df_clients = pd.read_csv("clients.csv")
+df_intervenants = pd.read_csv("intervenants.csv")
+df_projets = pd.read_csv("projets.csv")
+df_affectations = pd.read_csv("affectations.csv")
 
 # Génération du nom de fichier rapport horodaté
 # Cela évite d'écraser un ancien rapport et permet une traçabilité
@@ -52,12 +50,16 @@ with open(report_filename, "w", encoding="utf-8") as report:
     # On compare le nombre total d'enregistrements avec le nombre de valeurs distinctes
     # Si les deux nombres sont différents => il y a des doublons (anomalie)
     
-    report.write("2 Contraintes d'unicité\n")
+    report.write("2 Contraintes d'unicité\n")   #On ecrit dans le rapport
     for table, col in [("intervenant", "id_intervenant"), ("projets", "id_projet"), ("client_agence", "ID")]:
+
+
         cursor.execute(f"SELECT COUNT(DISTINCT {col}) FROM {table}")
+
         unique_count = cursor.fetchone()[0]    # Nb de valeurs uniques pour la clé
         cursor.execute(f"SELECT COUNT(*) FROM {table}")
         total_count = cursor.fetchone()[0]     # Nb total de lignes
+
         result = "OK" if unique_count == total_count else "DOUBLONS"
         report.write(f"- {table}.{col} : {unique_count} uniques / {total_count} total => {result}\n")
 
@@ -71,7 +73,7 @@ with open(report_filename, "w", encoding="utf-8") as report:
     checks = {
         "client_agence": ["NomClient", "EmailContact", "DateInscription", "Region"],
         "intervenant": ["id_intervenant", "nom", "prenom", "email", "agence", "telephone"],
-        "projets": ["id_projet", "nom_projet", "id_client", "date_debut", "status"],
+        "projets": ["id_projet", "nom_projet", "id_client", "date_debut", "statut"],
         "affectations": ["id_affectation", "id_projet", "id_intervenant", "date_affectation"]
     }
     for table, columns in checks.items():

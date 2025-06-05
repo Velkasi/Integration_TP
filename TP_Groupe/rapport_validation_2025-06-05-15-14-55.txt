@@ -1,0 +1,29 @@
+Rapport de validation post-migration
+Horodatage : 2025-06-05 15:14:55.015452
+
+1 Contrôle des volumes
+- client_agence : 0 en BDD / 500 attendus => ERREUR
+- intervenant : 0 en BDD / 500 attendus => ERREUR
+- projets : 0 en BDD / 500 attendus => ERREUR
+- affectations : 0 en BDD / 500 attendus => ERREUR
+
+2 Contraintes d'unicité
+- intervenant.id_intervenant : 0 uniques / 0 total => OK
+- projets.id_projet : 0 uniques / 0 total => OK
+- client_agence.ID : 0 uniques / 0 total => OK
+
+3 Contraintes de non nullité
+- client_agence.NomClient : OK
+- client_agence.EmailContact : OK
+- client_agence.DateInscription : OK
+- client_agence.Region : OK
+- intervenant.id_intervenant : OK
+- intervenant.nom : OK
+- intervenant.prenom : OK
+- intervenant.email : OK
+- intervenant.agence : OK
+- intervenant.telephone : OK
+- projets.id_projet : OK
+- projets.nom_projet : OK
+- projets.id_client : OK
+- projets.date_debut : OK
