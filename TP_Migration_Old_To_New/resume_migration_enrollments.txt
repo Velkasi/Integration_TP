@@ -1,0 +1,2421 @@
+Rapport de migration
+Total de ligne traitées : 2005
+Insertion reussies : 1578
+Lignes ignorees : 171
+Erreurs : 1207
+
+Detail des erreurs : 
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: (1406, "Data too long for column 'nationality' at row 1")
+Majors : N/A | Reason : (1406, "Data too long for column 'nationality' at row 1")
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: (1406, "Data too long for column 'nationality' at row 1")
+Majors : N/A | Reason : (1406, "Data too long for column 'nationality' at row 1")
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: (1406, "Data too long for column 'nationality' at row 1")
+Majors : N/A | Reason : (1406, "Data too long for column 'nationality' at row 1")
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: (1406, "Data too long for column 'nationality' at row 1")
+Majors : N/A | Reason : (1406, "Data too long for column 'nationality' at row 1")
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: Invalid date specified (31/31), at position 0
+Majors : N/A | Reason : Invalid date specified (31/31), at position 0
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: N/A Erreur: 'major_code'
+Majors : N/A | Reason : 'major_code'
+Enrollments: UNKNOWN Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: UNKNOWN Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: UNKNOWN Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: UNKNOWN Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: UNKNOWN Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: UNKNOWN Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: UNKNOWN Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: UNKNOWN Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: UNKNOWN Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: ENG Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: UNKNOWN Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: UNKNOWN Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: UNKNOWN Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: LAW Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: UNKNOWN Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: UNKNOWN Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: UNKNOWN Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BIO Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: ENG Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: BUS Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: LAW Erreur: (1265, "Data truncated for column 'status' at row 1")
+Majors : N/A | Reason : (1265, "Data truncated for column 'status' at row 1")
+Enrollments: CS Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
+Enrollments: UNKNOWN Erreur: month must be in 1..12: 2099-99-99, at position 0
+Majors : N/A | Reason : month must be in 1..12: 2099-99-99, at position 0
