@@ -15,13 +15,18 @@ connection = pymysql.connect(
 )
 cursor = connection.cursor()
 
-# Chargement des données sources (CSV) pour comparaison post-migration
+# Chargement des données sources depuis les fichiers CSV
+# Ces fichiers contiennent les données de référence initialement importées
+# On les utilise pour comparer avec les données migrées en base
+
 df_clients = pd.read_csv("data_1/client_agence.csv")
 df_intervenants = pd.read_csv("data_1/intervenant.csv")
 df_projets = pd.read_csv("data_1/projets.csv")
 df_affectations = pd.read_csv("data_1/affectations.csv")
 
-# Création du fichier de rapport horodaté
+# Génération du nom de fichier rapport horodaté
+# Cela évite d'écraser un ancien rapport et permet une traçabilité
+
 timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
 report_filename = f"rapport_validation_{timestamp}.txt"
 
@@ -29,31 +34,40 @@ with open(report_filename, "w", encoding="utf-8") as report:
     report.write("Rapport de validation post-migration\n")
     report.write(f"Horodatage : {datetime.now()}\n\n")
 
-    # 1. CONTRÔLE DES VOLUMES
-    report.write("[1] Contrôle des volumes\n")
+    # 1. CONTRÔLE DES VOLUMES : on vérifie que le nombre de lignes migrées est correct
+    # Pour chaque table, on compare le nombre d'enregistrements en base avec le CSV source
+    # Cela détecte des pertes ou des doublons lors de la migration
+    
+    report.write("1 Contrôle des volumes\n")
     for table_name, df in [("client_agence", df_clients), ("intervenant", df_intervenants), ("projets", df_projets), ("affectations", df_affectations)]:
         cursor.execute(f"SELECT COUNT(*) FROM {table_name}")
-        count_db = cursor.fetchone()[0]
-        count_csv = len(df)
+        count_db = cursor.fetchone()[0]    # Nombre d'enregistrements réels en base
+        count_csv = len(df)                # Nombre d'enregistrements attendus (CSV)
         result = "OK" if count_db == count_csv else "ERREUR"
         report.write(f"- {table_name} : {count_db} en BDD / {count_csv} attendus => {result}\n")
 
     report.write("\n")
 
-    # 2. CONTRAINTES D'UNICITÉ
-    report.write("[2] Contraintes d'unicité\n")
+    # 2. CONTRAINTES D'UNICITÉ vérifie que les clés primaires ne sont pas dupliquées
+    # On compare le nombre total d'enregistrements avec le nombre de valeurs distinctes
+    # Si les deux nombres sont différents => il y a des doublons (anomalie)
+    
+    report.write("2 Contraintes d'unicité\n")
     for table, col in [("intervenant", "id_intervenant"), ("projets", "id_projet"), ("client_agence", "ID")]:
         cursor.execute(f"SELECT COUNT(DISTINCT {col}) FROM {table}")
-        unique_count = cursor.fetchone()[0]
+        unique_count = cursor.fetchone()[0]    # Nb de valeurs uniques pour la clé
         cursor.execute(f"SELECT COUNT(*) FROM {table}")
-        total_count = cursor.fetchone()[0]
+        total_count = cursor.fetchone()[0]     # Nb total de lignes
         result = "OK" if unique_count == total_count else "DOUBLONS"
         report.write(f"- {table}.{col} : {unique_count} uniques / {total_count} total => {result}\n")
 
     report.write("\n")
 
-    # 3. CONTRAINTES DE NON NULLITÉ
-    report.write("[3] Contraintes de non nullité\n")
+    # 3. CONTRAINTES DE NON NULLITÉ : s'assurer que les colonnes obligatoires ne sont pas nulles
+    # Pour chaque table et colonne critique, on vérifie l'absence de valeurs NULL
+    # Des NULL dans ces colonnes pourraient provoquer des erreurs d'application ou d'analyse
+    
+    report.write("3 Contraintes de non nullité\n")
     checks = {
         "client_agence": ["NomClient", "EmailContact", "DateInscription", "Region"],
         "intervenant": ["id_intervenant", "nom", "prenom", "email", "agence", "telephone"],
@@ -69,7 +83,7 @@ with open(report_filename, "w", encoding="utf-8") as report:
 
     report.write("\n")
 
-    # 4. CONTRAINTES DE COHÉRENCE INTER-TABLES
+    # 4. CONTRAINTES DE COHÉRENCE INTER-TABLES : validité des liens entre tables
     report.write("[4] Contraintes de cohérence inter-tables\n")
 
     # Vérifier que projets.id_client existe dans client_agence
