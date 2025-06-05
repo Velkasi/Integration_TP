@@ -30,4 +30,4 @@ df_client_agence2['Commentaire'] = None # Colonne ajoutée : Raison Sociale,"ema
 df_clients = pd.concat([df_client_agence1, df_client_agence2], ignore_index=True)
 
 #####Ecriture du fichiers
-df_clients.to_csv ("agence.csv", index=False)
+df_clients.to_csv ("Cas 1/Cas 1/data_1/agence.csv", index=False)
