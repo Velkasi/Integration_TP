@@ -3,7 +3,7 @@ USE clevity_db;
 
 DROP TABLE IF EXISTS client_agence;
 
-# ID,NomClient,DateInscription,EmailContact,Commentaire + ClientID,Raison Sociale,email,Inscrit_le,Region
+-- ID,NomClient,DateInscription,EmailContact,Commentaire + ClientID,Raison Sociale,email,Inscrit_le,Region
 CREATE TABLE IF NOT EXISTS client_agence (
     ID INT AUTO_INCREMENT PRIMARY KEY,
     NomClient VARCHAR (100),
@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS client_agence (
     Region VARCHAR (100)
 );
 
-# id_affectation,id_projet,id_intervenant,date_affectation,role,commentaire
+-- id_affectation,id_projet,id_intervenant,date_affectation,role,commentaire
 CREATE TABLE IF NOT EXISTS affectations (
     id_affectation INT AUTO_INCREMENT PRIMARY KEY,
     id_projet VARCHAR (100),
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS affectations (
     commentaire VARCHAR (200)
 );
 
-# id_intervenant,nom,prenom,email,agence,telephone
+-- id_intervenant,nom,prenom,email,agence,telephone
 CREATE TABLE IF NOT EXISTS intervenant (
     id_intervenant INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR (100),
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS intervenant (
 );
 
 
-#id_projet,nom_projet,id_client,date_debut,date_fin,statut,note_satisfaction
+-- id_projet,nom_projet,id_client,date_debut,date_fin,statut,note_satisfaction
 CREATE TABLE IF NOT EXISTS projets (
     id_projet INT AUTO_INCREMENT PRIMARY KEY,
     nom_projet VARCHAR (100),
@@ -58,7 +58,7 @@ DROP TABLE IF EXISTS projets;
 DROP TABLE IF EXISTS intervenant;
 DROP TABLE IF EXISTS client_agence;
 
--- Table des clients/agences
+-- Table des clients/agences (ID,NomClient,DateInscription,EmailContact,Commentaire + ClientID,Raison Sociale,email,Inscrit_le,Region)
 CREATE TABLE IF NOT EXISTS client_agence (
     ID INT AUTO_INCREMENT PRIMARY KEY,
     NomClient VARCHAR(100) NOT NULL,
@@ -68,7 +68,7 @@ CREATE TABLE IF NOT EXISTS client_agence (
     Region VARCHAR(100) NOT NULL
 );
 
--- Table des intervenants
+-- Table des intervenants (id_intervenant,nom,prenom,email,agence,telephone)
 CREATE TABLE IF NOT EXISTS intervenant (
     id_intervenant INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(100) NOT NULL,
@@ -78,7 +78,7 @@ CREATE TABLE IF NOT EXISTS intervenant (
     telephone VARCHAR(100) NOT NULL
 );
 
--- Table des projets
+-- Table des projets (id_projet,nom_projet,id_client,date_debut,date_fin,statut,note_satisfaction)
 CREATE TABLE IF NOT EXISTS projets (
     id_projet INT AUTO_INCREMENT PRIMARY KEY,
     nom_projet VARCHAR(100) NOT NULL,
@@ -90,7 +90,7 @@ CREATE TABLE IF NOT EXISTS projets (
     FOREIGN KEY (id_client) REFERENCES client_agence(ID)
 );
 
--- Table des affectations
+-- Table des affectations (id_affectation,id_projet,id_intervenant,date_affectation,role,commentaire)
 CREATE TABLE IF NOT EXISTS affectations (
     id_affectation INT AUTO_INCREMENT PRIMARY KEY,
     date_affectation DATETIME NOT NULL,
