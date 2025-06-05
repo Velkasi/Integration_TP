@@ -1,5 +1,5 @@
 Rapport de validation post-migration
-Horodatage : 2025-06-05 15:14:55.015452
+Horodatage : 2025-06-05 16:23:04.101197
 
 1 Contrôle des volumes
 - client_agence : 0 en BDD / 500 attendus => ERREUR
@@ -27,3 +27,15 @@ Horodatage : 2025-06-05 15:14:55.015452
 - projets.nom_projet : OK
 - projets.id_client : OK
 - projets.date_debut : OK
+- projets.statut : OK
+- affectations.id_affectation : OK
+- affectations.id_projet : OK
+- affectations.id_intervenant : OK
+- affectations.date_affectation : OK
+
+[4] Contraintes de cohérence inter-tables
+- projets.id_client -> client_agence.ID : OK
+- affectations.id_projet -> projets.id_projet : OK
+- affectations.id_intervenant -> intervenant.id_intervenant : OK
+
+Fin du rapport de validation.
